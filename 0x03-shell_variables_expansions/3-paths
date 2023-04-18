@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH=$PATH:/action
+echo $((' echo $PATH | grep -0 ":/" | wc -1 ' +1))
